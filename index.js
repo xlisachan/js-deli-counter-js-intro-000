@@ -11,5 +11,5 @@ function nowServing(deliLine){
     } else {
       return `Currently serving ${name}.`;
     }
-    deliLine.shift();
+    deliLine = deliLine.shift();
 }
