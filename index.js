@@ -15,11 +15,11 @@ function nowServing(deliLine){
 function currentLine(line){
   var lineList = [];
   for (let i = 0; i < line.length; i++){
-    lineList.push(`${i+1}. ${line[i]}`);
+    lineList.push(` ${i+1}. ${line[i]}`);
   }
    if (line.length === 0){
     return "The line is currently empty.";
   } else {
-    return `The line is currently: ${lineList}`
+    return `The line is currently:${lineList}`
   }
 }
