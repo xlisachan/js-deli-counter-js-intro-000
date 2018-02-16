@@ -8,5 +8,6 @@ function nowServing(deliLine){
   let i = 0;
   while (i < deliLine.length){
       return `Currently serving ${deliLine[0]}.`;
-    };
+    i++;
+  }
 }
