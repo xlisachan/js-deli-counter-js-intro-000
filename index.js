@@ -1,6 +1,5 @@
-function takeANumber(katzDeli, name) {
-  var katzDeli = [];
-  katzDeli = Object.assign({}, name);
-  var position = katzDeli.indexOf(name) + 1;
+function takeANumber(katzDeliLine, name) {
+  var katzDeliLine = [];
+  katzDeliLine = Object.assign({}, name);
   return `Welcome, ${name}. You are number ${position} in line.`;
 }
