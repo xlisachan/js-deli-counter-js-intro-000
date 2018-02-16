@@ -8,7 +8,8 @@ function nowServing(deliLine){
   let i = 0;
   while (i < deliLine.length){
       return `Currently serving ${deliLine[0]}.`;
-    i++;
+      deliLine = deliLine.shift();
+      i++;
   }
   return "There is nobody waiting to be served!"
 }
