@@ -10,4 +10,5 @@ function nowServing(deliLine){
       return `Currently serving ${deliLine[0]}.`;
     i++;
   }
+  return "The line is currently empty."
 }
