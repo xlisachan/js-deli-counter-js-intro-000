@@ -5,10 +5,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(deliLine){
-  for (let i = 0; i < deliLine.length; i++){
-    if (deliLine.length = 0) {
-      return 'There is nobody waiting to be served!';
-    } else {
+  let i = 0
+  while (i < deliLine.length){
       return `Currently serving ${deliLine[0]}.`;
     }
 }
