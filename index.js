@@ -5,8 +5,8 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(deliLine){
-  let i = 0
+  let i = 0;
   while (i < deliLine.length){
       return `Currently serving ${deliLine[0]}.`;
-    }
+    };
 }
