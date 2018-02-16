@@ -10,4 +10,5 @@ function nowServing(){
     } else {
       console.log(`Currently serving ${name}.`);
       deliLine.shift();
+    }
 }
